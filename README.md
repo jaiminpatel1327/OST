@@ -1,2 +1,2 @@
 # OST
-uploading OST syllabus
+OST syllabus
