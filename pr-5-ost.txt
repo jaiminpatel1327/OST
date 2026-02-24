@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\nginx-1.28.2>nginx -t
+nginx: the configuration file C:\nginx-1.28.2/conf/nginx.conf syntax is ok
+nginx: configuration file C:\nginx-1.28.2/conf/nginx.conf test is successful
+
+C:\nginx-1.28.2>Nginx
+
+
+PS C:\Users\student\npm-lab> npm run dev
+
+> npm-lab@1.0.0 dev
+> nodemon index.js 
+
+[nodemon] 3.1.11
+[nodemon] to restart at any time, enter `rs`  
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+Server running at http://localhost:3000
+PS C:\Users\student\npm-lab> 
+
+PS C:\Users\student\nginx-demo> npm install express
+Support for loading ES Module in require() is an experimental (Use `node --trace-warnings ...` to show where the warning was
+up to date, audited 66 packages in 1s
+ index.js
+App running on http://localhost:3000
+PS C:\Users\student\nginx-demo> node index.js
+App running on http://localhost:3000
+PS C:\Users\student\nginx-demo> node index.js
+App running on http://localhost:8080
+PS C:\Users\student\nginx-demo> node index.js
+App running on http://localhost:8080
+
